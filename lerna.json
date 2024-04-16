@@ -1,8 +1,8 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "independent",
   "npmClient": "npm",
   "packages": ["packages/*"],
+  "version": "independent",
   "command": {
     "version": {
       "createRelease": "github",

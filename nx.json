@@ -1,10 +1,29 @@
 {
+  "namedInputs": {
+    "default": [
+      "{projectRoot}/**/*",
+      "!{projectRoot}/**/*.md",
+      "!{projectRoot}/**/LICENSE"
+    ],
+    "prod": [
+      "{projectRoot}/src/**/*",
+      "!{projectRoot}/**/*.test.ts",
+      "!{projectRoot}/**/*.spec.ts"
+    ]
+  },
   "targetDefaults": {
     "build": {
-      "cache": true,
-      "dependsOn": ["^build"]
+      "dependsOn": ["prebuild", "^build"],
+      "inputs": ["prod", "^prod"],
+      "outputs": ["{projectRoot}/dist"],
+      "cache": true
     },
     "test": {
+      "inputs": ["default", "^prod"],
+      "cache": true
+    },
+    "lint": {
+      "inputs": ["prod", "{projectRoot}/.eslintrc.json"],
       "cache": true
     }
   },
