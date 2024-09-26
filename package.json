@@ -12,11 +12,28 @@
     "storybook": "nx storybook @woolf1717/core-components",
     "update:token": "./update_token.sh"
   },
+  "commitlint": {
+    "rules": {
+      "references-empty": [
+        2,
+        "never"
+      ]
+    },
+    "parserPreset": {
+      "parserOpts": {
+        "issuePrefixes": [
+          "PROJ-"
+        ]
+      }
+    }
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
     "@nx/js": "18.2.4",
     "@nx/storybook": "^18.2.4",
     "@nx/vite": "18.2.4",
