@@ -68,6 +68,10 @@
       "red": {
         "value": "#ff0000",
         "type": "color"
+      },
+      "pink": {
+        "value": "#ffc0cb",
+        "type": "color"
       }
     }
   }

@@ -50,6 +50,9 @@ jobs:
         run: |
           npm ci
 
+      - name: Run commitlint
+        run: npx commitlint --from HEAD~1 --to HEAD
+
       - name: Lint packages
         run: |
           npm run lint
