@@ -40,6 +40,21 @@
         "11": {
           "value": "{color.global.brand.110.value}"
         }
+      },
+      "success": {
+        "value": "{color.global.green.value}"
+      },
+      "neutral": {
+        "value": "{color.global.grey.14.value}"
+      },
+      "warning": {
+        "value": "{color.global.orange.value}"
+      },
+      "danger": {
+        "value": "{color.global.red.value}"
+      },
+      "blank": {
+        "value": "{color.global.grey.16.value}"
       }
     }
   }

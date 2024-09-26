@@ -1,11 +1,11 @@
 {
-  "name": "@przeprogramowani/design-tokens",
+  "name": "@woolf1717/design-tokens",
   "version": "2.2.0",
-  "description": "Design tokens collection for Przeprogramowani Design System",
+  "description": "Design tokens collection for Woolf1717 Design System",
   "license": "MIT",
   "keywords": [
     "design tokens",
-    "przeprogramowani"
+    "woolf1717"
   ],
   "files": [
     "dist",
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/przeprogramowani/opanuj-frontend-monorepo.git",
+    "url": "git+https://github.com/woolf1717/opanuj-frontend-monorepo.git",
     "directory": "packages/design-tokens"
   }
 }

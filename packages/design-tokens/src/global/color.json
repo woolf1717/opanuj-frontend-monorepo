@@ -56,6 +56,18 @@
           "value": "#411B1C",
           "type": "color"
         }
+      },
+      "green": {
+        "value": "#39FF14",
+        "type": "color"
+      },
+      "orange": {
+        "value": "#ff8c00",
+        "type": "color"
+      },
+      "red": {
+        "value": "#ff0000",
+        "type": "color"
       }
     }
   }

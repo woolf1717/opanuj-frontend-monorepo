@@ -1,5 +1,5 @@
 {
-  "name": "@przeprogramowani/core-components",
+  "name": "@woolf1717/core-components",
   "version": "0.2.0",
   "description": "",
   "main": "dist/index.js",
@@ -23,7 +23,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@przeprogramowani/design-tokens": "^2.2.0",
+    "@woolf1717/design-tokens": "^2.2.0",
     "@shoelace-style/shoelace": "^2.15.0",
     "lit": "^3.1.2"
   },
